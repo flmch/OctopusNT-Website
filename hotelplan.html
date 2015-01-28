@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html><!-- InstanceBegin template="/Templates/octopus.dwt" codeOutsideHTMLIsLocked="false" -->
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Octopus Network LLC</title>
+<!-- InstanceEndEditable -->
+<style type="text/css";>
+html
+{
+      font-family: Apple LiSung Ligh;
+	  color:#70696A;
+}
+body
+{
+    background-color:#ECEBE6;
+	/*background-image:url(../656_body.jpg);
+	background-repeat:repeat-x;*/
+}
+
+
+
+/**here's container's style; Container includes all the other div
+_______________________________________________________________________________*/
+
+div.container
+{
+      width:800px;
+      margin:auto;
+}
+
+/**here's head's style
+_______________________________________________________________________________*/
+
+#bigcon{height:215px;border-radius:6px;box-shadow:0px 0px 5px #A8A8A8;overflow:visible;}
+
+div.head
+{
+      background:white;
+      height:110px;
+      padding:0px;
+      border:0px;
+      margin:0px;
+	  position:relative;
+	  overflow:hidden;
+	  border-top-left-radius:6px;
+	  border-top-right-radius:6px;
+	 
+}
+
+div.head1     /**it's a band at the bottom of head*/
+{
+      background-image:url("image/656_pt_x3_mb.jpg");
+      background-repeat:repeat-x;
+      height:28px;
+	  position:relative;
+	  
+}
+
+div.compname
+{
+	  background:white;
+      width:400px;
+      height:60px;
+      position:absolute;
+      top:20px;
+      left:220px;
+	  padding:0px;
+	  margin:0px;
+      z-index:+1;
+}
+
+h1
+{
+	   font-family:STsong;
+	   font-size:38px;
+	   letter-spacing:1px;
+}
+
+div.logo
+{
+	  background:white;
+      width:120px;
+      height:70px;
+	  margin:0px;
+	  padding:0px;
+      position:absolute;
+      top:30px;
+      left:50px;
+      z-index:+1;
+}
+
+div.language
+{
+	  font-family:STsong;
+	  position:absolute;
+	  top:7px;
+	  left:720px;
+	  font-size:12px;
+	  margin:0px;
+	  padding:0px;
+	  height:12px;
+	  line-height:12px;
+	  z-index:+1;
+}
+
+.language ul{list-style-type:none;margin:0px;padding:0px;}
+.language li{float:left;}
+.language a {display:block;}
+.language a:link{text-decoration:none;color:#70696A;}
+.language a:visited{text-decoration:none;color:#70696A;}
+
+
+.rightborder
+{
+	 border-right:1.5px solid #70696A;
+	 padding-right:5px;
+}
+
+.rightborder a:hover{text-decoration:none;color:#ff050d;}
+
+.leftborder
+{
+	 padding-left:5px;
+}
+
+.leftborder a:hover{text-decoration:none;color:#ff050d;}
+
+/**here's navigation's style
+_______________________________________________________________________________*/
+
+
+
+div.navigation               /** main navigation bar*/
+{
+      background:#E00000;
+      height:32px;
+      padding:0px;
+      border:0px;
+      margin:-14px 0px 0px;
+	  position:relative;
+	  z-index:+1;
+}
+
+div.navigation2              /**navigation2 and 3 go together*/
+{
+     background:white;
+     height:40px;
+     margin-top:2px;
+	 padding:0px;
+	 position:relative;
+	 border-bottom-left-radius:6px;
+	 border-bottom-right-radius:6px;
+	 
+}
+
+.subtitle { position:absolute; top:12px; left: 50px; margin:0px; padding: 0px;z-index:+2;
+            font-weight:800; }
+
+div.navigation3       
+{
+      background-image:url("image/656_header.jpg");
+      background-repeat:repeat-x;
+      height:25px;position:relative; top:-25px;
+	  border-bottom-left-radius:6px;
+	  border-bottom-right-radius:6px;  
+}
+
+.navigation ul
+{
+      width:800px;
+	  list-style-type:none;
+      margin-left:50px;
+      padding:0px;
+	 
+}
+
+.navigation li
+{
+      float:left;
+	  margin:0px;
+	  padding:0px;
+	  width:130px;
+	  text-align:center;  
+	  height:32px;
+	  line-height:32px;
+	  position:relative;
+	  border-right:1px solid white;
+ }
+
+.navigation a
+{
+      display:block;
+	  text-decoration:none;	  
+	  color:white;
+}
+
+.navigation a:hover  {background-image:url('image/656_navigation_o.jpg');
+                     }
+
+.navigation li ul li {float:none;background:#888888; border-top:1px solid white;
+                       width:130px;}
+.navigation li ul {position:absolute; margin:0px; padding:0px; font-size:12px; 
+                    visibility:hidden;				
+					}				
+					
+.navigation li:hover ul{visibility:visible;}
+
+#curtain {font-size:11px;}
+
+/**here's content's style
+_______________________________________________________________________________*/
+
+div.content
+{
+      background:white;
+      height:auto;
+      padding:0px;
+      border:0px solid #A8A8A8;
+      margin:10px 0px 0px;
+	  border-radius:6px;
+	  box-shadow:0px 0px 5px #A8A8A8;
+}
+
+div.content1   /**the band at top of content*/
+{
+      background-image:url("image/656_content.jpg");
+      background-repeat:repeat-x;
+      height:13px;
+	  border-radius:6px;
+}
+
+.content2 {font-color:#70696A;font-size:14px;}
+
+.content2 p{ text-indent:50px;line-height:22px;}
+
+.content3 {font-size:12px;}
+
+.content3 ul{list-style-type:none;margin:0px;padding:0px;}
+
+.content3 ul li{height:22px;line-height:22px;
+                 border-bottom:1px dotted #787878;
+				 border-left:1px dotted #787878;
+				 
+				 }
+
+.content3 a{text-decoration:none;display:block;background:white;padding-left:2px;}
+
+.content3 a:link {color:#E00000;}
+.content3 a:visited {color:#E00000;}
+.content3 a:hover {color:white;background:#C0C0C0;}
+
+.content4 {float:left; height:auto; width:auto; margin:40px; padding:0px;
+            }
+.content4 img{border-radius:4px;  box-shadow:0px 0px 5px #A0A0A0;}
+
+
+/**here's footer's style
+_______________________________________________________________________________*/
+
+div.footer
+{
+      background-image:url("image/656_footer.jpg");
+      background-repeat:repeat-x;
+      height:40px;
+      border:0px solid #A8A8A8;
+      border-top:0px;
+	  text-align:center;
+	  position:relative;
+	  top:-16px;
+	  font-size:14px;
+	  font-family:Arial, Helvetica, sans-serif;
+	  margin-top:25px;
+	  border-radius:6px;
+	  box-shadow:0px 0px 5px #D8D8D8;
+}
+
+</style>
+
+</head>
+
+
+
+<body>
+<!-- container goes first                                   -->
+<div class="container">
+
+<!-- contain top part including head & navigator -->
+<div id="bigcon">
+
+<!-- head                                                   -->
+<div class="head">
+<div class="logo"><img src="image/red120logo.jpg"></div>
+<div class="compname"><h1><font color="#70696A">章鱼网络技术有限公司</font></h1></div> 
+
+<div class="language"><ul>
+<li class="rightborder"><a href="index.html">中文</a></li>
+<li class="leftborder"><a href="index_en.html">English</a></li>
+</ul></div>
+</div>
+<div class="head1"></div>
+
+<!-- navigator                                              -->
+<div class="navigation">
+<ul>
+<li><a href="index.html">首页</a></li>
+<li><a href="about_SH.html">智能家居</a></li>
+<li><a href="solutions.html">解决方案</a>
+   <ul>
+      <li><a href="hotelplan.html">酒店智能控制系统</a></li>
+      <li><a href="homeplan.html">智能家居控制系统</a></li>
+   </ul>
+</li>
+<li><a href="product.html">产品介绍</a>
+   <ul>
+      <li><a href="rfwifi.html">无线射频控制器</a></li>
+      <li><a href="rfir.html">射频红外控制器</a></li>
+      <li><a href="oneswitch.html">一路无线触摸开关</a></li>
+      <li><a href="twoswitch.html">两路无线触摸开关</a></li>
+      <li><a href="threeswitch.html">三路无线触摸开关</a></li>
+      <li><a href="dimswitch.html">无线触摸调光开关</a></li>
+      <span id="curtain"><li><a href="curtainswitch.html">无线触摸电动窗帘控制器</a></li></span>
+   </ul>
+</li>
+<li><a href="contact_us.html">联系我们</a></li>
+</ul>
+</div>
+
+<div class="navigation2">
+<div class="subtitle"><!-- InstanceBeginEditable name="EditRegion1" -->酒店智能控制系统<!-- InstanceEndEditable --></div>
+</div>
+<div class="navigation3"></div>
+
+</div>
+
+<!-- content                                                -->
+<div class="content">
+
+<!-- InstanceBeginEditable name="EditRegion4" -->
+<div class="content2" style="height:600px; width:800px;">
+<img style="margin-bottom:-10px;" src="image/hotel.jpg" height="550px" width="780px">
+<p align="center">系统图示</p>
+</div>
+<!-- InstanceEndEditable --></div>
+
+<!-- footer                                                 -->
+<div class="footer"><p style="line-height:40px"><i>@2012, Octopus Network LLC,  All rights reserved.</i></p></div>
+
+</div>
+
+</body>
+<!-- InstanceEnd --></html>
