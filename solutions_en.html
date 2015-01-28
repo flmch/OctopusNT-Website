@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html><!-- InstanceBegin template="/Templates/octopus_en.dwt" codeOutsideHTMLIsLocked="false" -->
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Octopus Network LLC</title>
+<!-- InstanceEndEditable -->
+<style type="text/css";>
+html
+{
+	  font-family:Arial, Helvetica, sans-serif;
+	  color:#70696A;
+}
+body
+{
+    background-color:#ECEBE6;
+	/*background-image:url(../656_body.jpg);*/
+}
+
+
+
+/**here's container's style; Container includes all the other div
+_______________________________________________________________________________*/
+
+div.container
+{
+      width:800px;
+      margin:auto;  
+}
+
+/**here's head's style
+_______________________________________________________________________________*/
+#bigcon{height:215px;border-radius:6px;box-shadow:0px 0px 5px #A8A8A8;overflow:visible;}
+
+div.head
+{
+      background:white;
+      height:110px;
+      padding:0px;
+      border:0px;
+      margin:0px;
+	  position:relative;
+	  overflow:hidden;
+	  border-top-left-radius:6px;
+	  border-top-right-radius:6px;	  
+}
+
+div.head1     /**it's a band at the bottom of head*/
+{
+      background-image:url("image/656_pt_x3_mb.jpg");
+      background-repeat:repeat-x;
+      height:28px;
+	  position:relative;
+}
+
+div.compname
+{
+	  background:white;
+      width:500px;
+      height:60px;
+      position:absolute;
+      top:20px;
+      left:210px;
+	  padding:0px;
+	  margin:0px;
+      z-index:+1;	  
+}
+
+
+h1
+{
+	   font-size:38px;
+	   letter-spacing:0px;  font-weight:200; text-transform:uppercase;
+}
+
+div.logo
+{
+	  background:white;
+      width:120px;
+      height:70px;
+	  margin:0px;
+	  padding:0px;
+      position:absolute;
+      top:30px;
+      left:50px;
+      z-index:+1;
+}
+
+div.language
+{
+	  font-family:STsong;
+	  position:absolute;
+	  top:7px;
+	  left:720px;
+	  font-size:12px;
+	  margin:0px;
+	  padding:0px;
+	  height:12px;
+	  line-height:12px;
+	  z-index:+1;
+}
+
+.language ul{list-style-type:none;margin:0px;padding:0px;}
+.language li{float:left;}
+.language a {display:block;}
+.language a:link{text-decoration:none;color:#70696A;}
+.language a:visited{text-decoration:none;color:#70696A;}
+
+
+.rightborder
+{
+	 border-right:1px solid #70696A;
+	 padding-right:5px;
+}
+
+.rightborder a:hover{text-decoration:none;color:#ff050d;}
+
+.leftborder
+{
+	 padding-left:5px;
+	 font-size:12px;
+}
+
+.leftborder a:hover{text-decoration:none;color:#ff050d;}
+
+/**here's navigation's style
+_______________________________________________________________________________*/
+
+
+
+div.navigation               /** main navigation bar*/
+{
+      background:#E00000;
+      height:32px;
+      padding:0px;
+      border:0px;
+      margin:-14px 0px 0px;
+	  position:relative;
+	  z-index:+1;
+}
+
+div.navigation2              /**navigation2 and 3 go together*/
+{
+     background:white;
+     height:40px;
+     margin-top:2px;
+	 padding:0px;
+	 position:relative;
+	 border-bottom-left-radius:6px;
+	 border-bottom-right-radius:6px;	 
+}
+
+.subtitle { position:absolute; top:12px; left: 50px; margin:0px; padding: 0px;z-index:+2;
+             }
+
+div.navigation3       
+{
+      background-image:url("image/656_header.jpg");
+      background-repeat:repeat-x;
+      height:25px;position:relative; top:-25px;
+	  border-bottom-left-radius:6px;
+	  border-bottom-right-radius:6px;	  
+}
+
+.navigation ul
+{
+      width:800px;
+	  list-style-type:none;
+      margin-left:50px;
+      padding:0px;
+	 
+}
+
+.navigation li
+{
+      float:left;
+	  margin:0px;
+	  padding:0px;
+	  width:130px;
+	  text-align:center;  
+	  height:32px;
+	  line-height:32px;
+	  position:relative;
+	  border-right:1px solid white;
+ }
+
+.navigation a
+{
+      display:block;
+	  text-decoration:none;	  
+	  color:white;
+}
+
+.navigation a:hover  {background-image:url('image/656_navigation_o.jpg');}
+
+.navigation li ul li {float:none;background:#888888; border-top:1px solid white;
+                       width:130px;}
+.navigation li ul {position:absolute; margin:0px; padding:0px; font-size:12px; 
+                    visibility:hidden;}
+.navigation li ul a { text-align:left; padding-left:5px;}				
+.navigation li:hover ul{visibility:visible;}
+
+
+/**here's content's style
+_______________________________________________________________________________*/
+
+div.content
+{
+      background:white;
+      height:auto;
+      padding:0px;
+      border:0px solid #A8A8A8;
+      margin:10px 0px 0px;
+	  font-size:13px;
+	  border-radius:6px;
+	  box-shadow:0px 0px 5px #A8A8A8;	  
+}
+
+div.content1   /**the band at top of content*/
+{
+      background-image:url("image/656_content.jpg");
+      background-repeat:repeat-x;
+      height:13px;
+}
+
+.content2 {font-color:#70696A;font-size:14px;}
+
+.content2 p{text-indent:50px;line-height:22px;}
+
+.content3 {font-size:12px;}
+
+.content3 ul{list-style-type:none;margin:0px;padding:0px;}
+
+.content3 ul li{height:22px;line-height:22px;
+                 border-bottom:1px dotted #787878;
+				 border-left:1px dotted #787878;
+}
+
+.content3 a{text-decoration:none;display:block;background:white;padding-left:2px;
+
+}
+
+.content3 a:link {color:#E00000;}
+.content3 a:visited {color:#E00000;}
+.content3 a:hover {color:white;background:#C0C0C0;}
+.content4 {float:left; height:auto; width:auto; margin:40px; padding:0px;
+            }
+.content4 img{border-radius:4px;  box-shadow:0px 0px 5px #A0A0A0;}
+
+/**here's footer's style
+_______________________________________________________________________________*/
+
+div.footer
+{
+      background-image:url("image/656_footer.jpg");
+      background-repeat:repeat-x;
+      height:40px;
+      border:0px solid #A8A8A8;
+	  text-align:center;
+	  position:relative;
+	  top:-16px;
+	  font-size:14px;
+	  margin-top:25px;
+	  border-radius:6px;
+	  box-shadow:0px 0px 5px #D8D8D8;	  
+}
+
+</style>
+
+</head>
+
+
+
+<body>
+<!-- container goes first                                   -->
+<div class="container">
+
+<!-- contain top part including head & navigator -->
+<div id="bigcon">
+
+<!-- head                                                   -->
+<div class="head">
+<div class="logo"><img src="image/red120logo.jpg"></div>
+<div class="compname"><h1><font color="#70696A">Octopus Network LLC</font></h1></div> 
+
+<div class="language"><ul>
+<li class="rightborder"><a href="index.html">ÖÐÎÄ</a></li>
+<li class="leftborder"><a href="index_en.html">English</a></li>
+</ul></div>
+</div>
+<div class="head1"></div>
+
+<!-- navigator                                              -->
+<div class="navigation">
+<ul>
+<li><a href="index_en.html">Home</a></li>
+<li><a href="about_SH_en.html">Smart Home</a></li>
+<li><a href="solutions_en.html">Solutions</a>
+   <ul>
+      <li><a href="hotelplan_en.html">Hotel Control System</a></li>
+      <li><a href="homeplan_en.html">Smart Home System</a></li>
+   </ul>
+</li>
+<li><a href="product_en.html">Product</a>
+   <ul>
+      <li><a href="rfwifi_en.html">RF-WIFI Controller</a></li>
+      <li><a href="rfir_en.html">RF-Infrared Tranducer</a></li>
+      <li><a href="oneswitch_en.html">One Route Switch</a></li>
+      <li><a href="twoswitch_en.html">Two Route Switch</a></li>
+      <li><a href="threeswitch_en.html">Three Route Switch</a></li>
+      <li><a href="dimswitch_en.html">Brightness Switch</a></li>
+      <li><a href="curtainswitch_en.html">Curtain Switch</a></li>
+   </ul>
+</li>
+<li><a href="contact_us_en.html">Contact Us</a></li>
+</ul>
+
+</div>
+<div class="navigation2">
+<div class="subtitle"><!-- InstanceBeginEditable name="EditRegion1" -->Solutions<!-- InstanceEndEditable --></div>
+</div>
+<div class="navigation3"></div>
+</div>
+
+<!-- content                                                -->
+<div class="content">
+<!-- InstanceBeginEditable name="EditRegion4" -->
+<div style="height:1300px;width:798px;margin:0;padding:0;">
+<div class="content2" style="height:1300px;width:560px;float:left;margin:0;padding:0px 25px 0px 40px;">
+<h3 style="margin-top:30px;margin-left:50px;">System Introduction</h3>
+
+<p>
+WIFI Smart Home Control System integrates router, RF-WIFI controller, RF switch, RF-IR Transducer and Control Software on one network. The RF-WIFI Controller can operate RF switch directly. With assistance of RF-IR Transducer, electronic device with infrared receiver can be involved in the network. Since the system connect to internet, it's able to be controlled remotely.</p>
+
+<p>The System provides a platform not only for home, but also for hotel, office and meeting room. Along with RF and IR device, it greatly decrease amount and cost for wire, switch and controllers. At the same time, the system helps build up green and sustainable community. Besides, if you want to update your home to an automatic one, only some switches should be changed. No hole will be made on your wall and no noise during system setup. It's just quick and convenient. </p>
+
+<h3 style="margin-top:30px;margin-left:50px;">Control Center</h3>
+<p>Consists of router and RF-WIFI controller, Control Center is the core of the Smart Home System.</p>
+
+<h3 style="margin-top:30px;margin-left:50px;">Software System</h3>
+
+<p>Operating interface at user end is developed as a website and supports majority browsers. So all the control could be done through this platform. Since program and data is stored on RF-WIFI controller's chip, the interface is totally independent of what kind of terminal device you are using or what kind of operating system is on that device. A device with internet function is sufficient for remote control. </p>
+
+<h3 style="margin-top:30px;margin-left:50px;">Control System</h3>
+<img src="image/system_en.jpg" width="580px" height="540px">
+</div>
+
+<div class="content3" style="height:400px;width:150px;float:left;">
+<div style="height:18px;background:#E00000;line-height:18px;padding-left:2px;">
+<p style="color:white;font-size:12px;">Control System List</p></div>
+<p><ul>
+  <li><a href="hotelplan_en.html">Hotel Control System<a></li>
+  <li><a href="homeplan_en.html">Smart Home System<a></li>
+</ul></p>
+</div>
+</div>
+<!-- InstanceEndEditable --></div>
+
+<!-- footer                                                 -->
+<div class="footer"><p style="line-height:40px"><i>@2012, Octopus Network LLC,  All rights reserved.</i></p></div>
+
+</div>
+
+</body>
+<!-- InstanceEnd --></html>
